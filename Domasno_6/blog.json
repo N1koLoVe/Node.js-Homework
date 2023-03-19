@@ -1,0 +1,18 @@
+[
+  {
+    "id": "1",
+    "title": "title",
+    "body": "nesto",
+    "author": "JAS",
+    "date": "19.03.2023",
+    "tags": ["Tag1", "tag2"]
+  },
+  {
+    "id": "2",
+    "title": "title",
+    "body": "nesto",
+    "author": "ti",
+    "date": "19.03.2023",
+    "tags": ["Tag1", "tag2"]
+  }
+]
