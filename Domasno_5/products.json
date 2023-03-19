@@ -45,12 +45,36 @@
     "isInStock": false
   },
   {
-    "id": "73965d6a-18ae-4d23-b8fa-904123fc8616"
+    "id": "2f7bea0e-5c11-41cd-aa7a-0b4d6f9333c7",
+    "name": "aa",
+    "price": 3015,
+    "rating": "sdsd",
+    "description": "asd dog, yellow Epic color",
+    "isInStock": true
   },
   {
-    "id": "ee5d74ae-538c-445e-a342-6f6f69e5030e"
+    "id": "d5d25bfe-6983-465c-935f-d08970c65a50",
+    "name": "aa",
+    "price": 3015,
+    "rating": "sdsd",
+    "description": "asd dog, yellow Epic color",
+    "isInStock": true
   },
   {
-    "id": "df9a8da4-bb82-48de-a85e-682bcce9a971"
+    "id": "a1f79121-acbe-44c3-9e71-83075d7b2441",
+    "name": "aa",
+    "price": 3015,
+    "rating": "sdsd",
+    "description": "asd dog, yellow Epic color",
+    "isInStock": true
+  },
+  {
+    "id": "3b0624e2-da0c-4942-8e52-f9590eb62120",
+    "name": "aa",
+    "price": 3015,
+    "rating": "sdsd",
+    "description": "asd dog, yellow Epic color",
+    "category": "Animal",
+    "isInStock": true
   }
 ]

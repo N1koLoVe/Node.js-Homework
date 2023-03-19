@@ -2,3 +2,8 @@
 Request on the route "/add_product" was made at 3/15/2023, 12:45:07 PM.
 Request on the route "/add_product" was made at 3/15/2023, 12:45:14 PM.
 Request on the route "/add_product" was made at 3/15/2023, 12:45:14 PM.
+Request on the route "/create" was made at 3/15/2023, 8:50:06 PM.
+Request on the route "/create" was made at 3/15/2023, 8:50:19 PM.
+Request on the route "/create" was made at 3/15/2023, 8:51:37 PM.
+Request on the route "/create" was made at 3/15/2023, 8:52:09 PM.
+Request on the route "/create" was made at 3/15/2023, 8:52:15 PM.
