@@ -1,4 +1,4 @@
-import fs from "fs";
+import fsPromises from "fs/promises";
 
 const writeFile = async (path, data) => {
   await fs.writeFile(path, data);

@@ -12,6 +12,17 @@ class BlogController {
   async createBlog(title, body, author, tags) {
     await blogsModel.createBlog(title, body, author, tags);
   }
+
+  async blogDelete(id) {
+    const deleteBlog = await blogsModel.blogDelete(id);
+    return deleteBlog;
+  }
+
+  async blogEdit(id, title, body, tags) {
+    const editedBlog = await blogsModel.editedBlog(id, title, body, tags);
+
+    return editedBlog;
+  }
 }
 
 export default BlogController;
