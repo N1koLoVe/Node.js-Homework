@@ -27,7 +27,7 @@ blogRouter.post("/", async (req, res) => {
   res.status(201).send({ message: "Blog was created." });
 });
 
-blogRouter.put("/:id", async (req, res) => {
+blogRouter.patch("/:id", async (req, res) => {
   const id = req.params.id;
   const { title, body, tags } = req.body;
   if (!title || !body || !tags) {
