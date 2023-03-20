@@ -5,7 +5,7 @@ const blogsController = new BlogController();
 const blogRouter = express.Router();
 
 blogRouter.get("/", async (req, res) => {
-  const blogs = await blogsController.listBlogs();
+  const blogs = await blogsController.getAllBlogs();
 
   res.send(blogs);
 });

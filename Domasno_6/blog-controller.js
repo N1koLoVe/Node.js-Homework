@@ -3,7 +3,7 @@ import BlogModel from "./blog-model.js";
 const blogsModel = new BlogModel();
 
 class BlogController {
-  async listBlogs() {
+  async getAllBlogs() {
     const listenBlogs = await blogsModel.getAllBlogs();
 
     return listenBlogs;
@@ -19,7 +19,7 @@ class BlogController {
   }
 
   async blogEdit(id, title, body, tags) {
-    const editedBlog = await blogsModel.editedBlog(id, title, body, tags);
+    const editedBlog = await blogsModel.blogEdit(id, title, body, tags);
 
     return editedBlog;
   }
